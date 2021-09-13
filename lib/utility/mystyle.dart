@@ -14,6 +14,40 @@ class MyStyle {
         ),
       );
 
+  Widget titleH2(String string) => Text(
+        string,
+        style: TextStyle(
+          fontSize: 18,
+          fontWeight: FontWeight.w700,
+          color: darkColor,
+        ),
+      );
+
+  Widget titleH3Dark(String string) => Text(
+        string,
+        style: TextStyle(
+          fontSize: 16,
+          color: darkColor,
+        ),
+      );
+
+  Widget titleH3White(String string) => Text(
+        string,
+        style: TextStyle(
+          fontSize: 16,
+          color: Colors.white,
+        ),
+      );
+
+  Widget titleH3Button(String string) => Text(
+        string,
+        style: TextStyle(
+          fontSize: 16,
+          color: Colors.pink.shade700,
+        ),
+      );
+
+
   Widget showLogo() => Image(
         image: AssetImage('images/logo.png'),
       );
